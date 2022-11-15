@@ -75,6 +75,7 @@ nav .container ul li {
 .corpo__mensagem .container .mensagem h2 {
     font-size: 4rem;
     color: #186295;
+    margin: 6rem;
 }
 
 .corpo__mensagem .container .mensagem .fa-rotate-right {
@@ -87,4 +88,32 @@ nav .container ul li {
 
 .corpo__mensagem .container .mensagem .fa-rotate-right:hover {
     cursor: pointer;
+}
+
+/*========================= MEDIA QUERY (TABLET) ========================*/
+@media screen and (max-width: 1024px){
+
+    .corpo__mensagem .container .mensagem {
+        width: 700px;
+        height: 400px;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+
+    .corpo__mensagem .container .mensagem {
+        width: 300px;
+        height: 300px;
+    }
+
+    .corpo__mensagem .container .mensagem h2 {
+        font-size: 2rem;
+        margin: 6rem;
+    }
+
+    nav .container ul li:first-child {
+        display: none;
+    }
+
 }
