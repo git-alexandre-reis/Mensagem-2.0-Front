@@ -1,7 +1,7 @@
 const bodyMensagens = document.getElementById('getMensagens');
 
 const getMensagens = async () => {
-    var resposta = await fetch("http://localhost:8084/");
+    var resposta = await fetch("https://mensagem-2.herokuapp.com/");
     var dados = await resposta.json();
 
     console.log (dados)
