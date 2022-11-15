@@ -1,0 +1,90 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background: linear-gradient(-4.5rad, #186295 , #88bff9);
+    color: #ffff;
+}
+
+img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.container {
+    width: 94%;
+    margin: 0 auto;
+}
+
+nav .container {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav .container .logo img {
+    width: 8rem;
+}
+
+nav .container ul {
+    display: flex;
+    gap: 3rem;
+}
+
+nav .container ul li {
+    font-size: 1.2rem;
+}
+
+.corpo__mensagem .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.corpo__mensagem .container .mensagem {
+    width: 900px;
+    height: 400px;
+    background-color: #fed731;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.corpo__mensagem .container .mensagem h2 {
+    font-size: 4rem;
+    color: #186295;
+}
+
+.corpo__mensagem .container .mensagem .fa-rotate-right {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    color: #186295;
+}
+
+.corpo__mensagem .container .mensagem .fa-rotate-right:hover {
+    cursor: pointer;
+}
