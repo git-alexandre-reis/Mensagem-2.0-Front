@@ -100,7 +100,7 @@ nav .container ul li {
 
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 700px){
 
     .corpo__mensagem .container .mensagem {
         width: 300px;
@@ -114,6 +114,16 @@ nav .container ul li {
 
     nav .container ul li:first-child {
         display: none;
+    }
+
+    .corpo__mensagem .container .mensagem h2 {
+        font-size: 2rem;
+        margin: 0;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
     }
 
 }
