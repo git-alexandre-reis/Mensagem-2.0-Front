@@ -107,11 +107,6 @@ nav .container ul li {
         height: 300px;
     }
 
-    .corpo__mensagem .container .mensagem h2 {
-        font-size: 2rem;
-        margin: 6rem;
-    }
-
     nav .container ul li:first-child {
         display: none;
     }
@@ -119,11 +114,10 @@ nav .container ul li {
     .corpo__mensagem .container .mensagem h2 {
         font-size: 2rem;
         margin: 0;
-        margin-left: 2rem;
-        margin-right: 2rem;
+        padding: 2rem;
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: center;
     }
 
 }
